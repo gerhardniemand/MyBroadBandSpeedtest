@@ -65,6 +65,10 @@ page.open("http://speedtest.mybroadband.co.za/", function (status) {
                 })
             }, function () {
                 console.log("Test is done");
+                var ping = page.evaluate(function () {
+                    return $("#ping").children(":visible").text();
+                });
+                console.log(ping);
                 var download = page.evaluate(function () {
                     return $("#download").children(":visible").text();
                 });
