@@ -1,8 +1,6 @@
 # myBroadbandSpeedtest
 
-Phantom JS script to do a speedtest on myBroadband
-
-This script is not very reliable but it works. Need to figure out a way to actually make JS wait properly.
+Casper JS script to do a speedtest on myBroadband
 
 Requirements
 PhantomJS and CasperJS, also NPM (To install them)
